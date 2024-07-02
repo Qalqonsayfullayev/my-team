@@ -1,0 +1,26 @@
+@mixin display($item, $space, $gap) {
+    display: flex;
+    align-items: $item;
+    justify-content: $space;
+    gap: $gap;
+}
+
+@mixin textStayle($FS, $FW, $LH, $MB, $CLR){
+    font-size: $FS;
+    margin-bottom: $MB;
+    font-weight: $FW;
+    line-height: $LH;
+    color: $CLR;
+}
+
+@mixin btnStayle ($W, $PY, $BordeColor, $BgColor, $BtnFS, $BtnFW, $BtnLH, $BtTextCcolor){
+    width: $W;
+    padding: $PY 0;
+    border-radius: 20px;
+    border: 2px solid $BordeColor;
+    background-color: $BgColor;
+    text-align: center;
+    cursor: pointer;
+
+    @include textStayle($FS:$BtnFS, $FW:$BtnFW, $LH:$BtnLH, $MB:0, $CLR:$BtTextCcolor);
+}

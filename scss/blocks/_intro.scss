@@ -1,0 +1,184 @@
+.intro {
+    width: 100%;
+    flex-shrink: 0;
+    background: #F67E7E;
+    margin-top: 700px;
+    padding: 76px 263px;
+    background-image: url(../img/imtro-bg.svg);
+    background-repeat: no-repeat ;
+    background-position: left bottom;
+    position: absolute;
+    background-size: 200px 244px;
+}
+
+
+.intro-h3 {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 100% */
+}
+
+.intro-btn {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    width: 153px;
+    height: 48px;
+    background: #F67E7E;
+    border-color: #012F34;
+    border-radius: 50px;
+}
+
+.intro__link {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+    .intro {
+        width: 100%;
+        flex-shrink: 0;
+        background: #F67E7E;
+        margin-top: 1250px;
+        padding: 76px 97px;
+        background-image: url(../img/imtro-bg.svg);
+        background-repeat: no-repeat ;
+        background-position: left bottom;
+        position: absolute;
+        background-size: 200px 244px;
+    }
+    
+}
+@media (max-width: 850px) {
+    .intro {
+        width: 100%;
+        flex-shrink: 0;
+        background: #F67E7E;
+        margin-top: 1250px;
+        padding: 76px 97px;
+        background-image: url(../img/imtro-bg.svg);
+        background-repeat: no-repeat ;
+        background-position: left bottom;
+        position: absolute;
+        background-size: 200px 244px;
+    }
+
+    .intro-h3 {
+        width: 70%;
+        Font: Livvic;
+Font-weight: 700;
+Font-size: 32px;
+Letter-spacing: 0px;
+    }
+    
+}
+
+@media (max-width: 740px) {
+    .intro {
+        width: 100%;
+        flex-shrink: 0;
+        background: #F67E7E;
+        margin-top: 1350px;
+        padding: 46px 37px;
+        background-image: url(../img/imtro-bg.svg);
+        background-repeat: no-repeat ;
+        background-position: left bottom;
+        position: absolute;
+        background-size: 200px 244px;
+    }
+
+    
+}
+@media (max-width: 665px) {
+    .intro {
+        width: 100%;
+        flex-shrink: 0;
+        background: #F67E7E;
+        margin-top: 1250px;
+        padding: 46px 37px;
+        background-image: url(../img/imtro-bg.svg);
+        background-repeat: no-repeat ;
+        background-position: left bottom;
+        position: absolute;
+        background-size: 200px 244px;
+    }
+
+    
+}
+@media (max-width: 594px) {
+    .intro {
+        width: 100%;
+        flex-shrink: 0;
+        background: #F67E7E;
+        margin-top: 1350px;
+        padding: 46px 10px;
+        background-image: url(../img/imtro-bg.svg);
+        background-repeat: no-repeat ;
+        background-position: left bottom;
+        position: absolute;
+        background-size: 200px 244px;
+    }
+
+    .intro__link{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 490px) {
+    .intro {
+        width: 100%;
+        flex-shrink: 0;
+        background: #F67E7E;
+        margin-top: 1400px;
+        padding: 46px 10px;
+        background-image: url(../img/imtro-bg.svg);
+        background-repeat: no-repeat ;
+        background-position: left bottom;
+        position: absolute;
+        background-size: 200px 244px;
+    }
+
+    .intro-h3 {
+        Font: Livvic;
+Font-weight: 700;
+Font-size: 32px;
+Letter-spacing: 0px;
+    }    
+} 
+
+@media (max-width: 440px) {
+    .intro {
+        width: 100%;
+        flex-shrink: 0;
+        background: #F67E7E;
+        margin-top: 1550px;
+        padding: 46px 10px;
+        background-image: url(../img/imtro-bg.svg);
+        background-repeat: no-repeat ;
+        background-position: left bottom;
+        position: absolute;
+        background-size: 200px 244px;
+    }
+}
+@media (max-width: 390px) {
+    .intro {
+        width: 100%;
+        flex-shrink: 0;
+        background: #F67E7E;
+        margin-top: 1750px;
+        padding: 46px 10px;
+        background-image: url(../img/imtro-bg.svg);
+        background-repeat: no-repeat ;
+        background-position: left bottom;
+        position: absolute;
+        background-size: 200px 244px;
+    }
+}
